@@ -5,7 +5,7 @@
 unlink("C:/Users/tshul/AppData/Local/R/win-library/4.3/00LOCK*", recursive = TRUE)
 
 # Install dependencies
-install.packages(c("janitor","tidyverse"), type = "binary")
+# install.packages(c("janitor","tidyverse"), type = "binary")
 
 # setting Up my BER API
 remotes::install_github("Bureau-for-Economic-Research/berdata")
