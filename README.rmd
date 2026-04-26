@@ -9,7 +9,10 @@ output:
 The purpose of this tutorial is to implement and practice using Application Programming Interfaces (APIs) to collect pull data and and answer economic questions. This practical is done for the Dynamic Panel section the the module Econometrics 871 at Stellenbosch University.
 
 ```{r}
-
+knitr::opts_chunk$set(
+  warning = FALSE,
+  message = FALSE
+)
 rm(list = ls()) # Clean your environment:
 gc() # garbage collection - It can be useful to call gc after a large object has been removed, as this may prompt R to return memory to the operating system.
 library(tidyverse)
